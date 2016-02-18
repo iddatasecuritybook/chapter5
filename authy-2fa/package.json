@@ -1,0 +1,19 @@
+{
+  "name": "authy",
+  "version": "1.0.0",
+  "description": "Authy 2FA Express Sample",
+  "main": "authy.js",
+  "engines": {
+    "node": "4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node authy.js"
+  },
+  "author": "Jonathan LeBlanc",
+  "license": "ISC",
+  "dependencies": {
+    "authy": "^1.1.2",
+    "body-parser": "^1.15.0"
+  }
+}
